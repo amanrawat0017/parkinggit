@@ -1,0 +1,20 @@
+.custom-carousel-nav {
+    outline: 0;
+    color: #ffffff;
+    text-align: center;
+    height: 250px;
+    width: 200px;
+  }
+  
+  a.custom-carousel-nav {
+    outline: 0;
+  }
+  
+  a.custom-carousel-nav:hover {
+    outline: 0;
+    text-decoration: none;
+  }
+  
+  .icon-control {
+    margin: 0 0 0 140px;
+  }

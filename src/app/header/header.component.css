@@ -1,0 +1,18 @@
+.navbar{
+  background-color: aqua;
+  text-decoration-color: red; 
+}
+
+#nav-item{
+text-decoration-color: lavender;
+float:right;
+}
+
+ #logo{
+  height: 50px;
+  width:50px;
+ }
+
+ .img{
+  height: 50px;
+ }

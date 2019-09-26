@@ -1,0 +1,145 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+    background-color: #111111;
+      box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+      padding: 30px 0;
+      color: #333;
+      font-size: 14px;
+      
+    }
+    
+    #footer .credits {
+      font-size: 13px;
+      color: #888;
+    }
+    
+    #footer .footer-links a {
+      color: #666;
+      padding-left: 15px;
+    }
+    
+    #footer .footer-links a:first-child {
+      padding-left: 0;
+    }
+    
+    #footer .footer-links a:hover {
+      color: #1dc8cd;
+    }
+    
+    @media (min-width: 769px) {
+      #features .features-img {
+        padding-top: 120px;
+        margin-top: -200px;
+      }
+    
+      #call-to-action .cta-btn-container {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+      }
+    }
+    
+    @media (min-width: 1025px) {
+      #intro {
+        background-attachment: fixed;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      #header #logo h1 {
+        font-size: 28px;
+        margin-top: 0;
+      }
+    
+      #header #logo img {
+        max-height: 40px;
+      }
+    
+      #intro h2 {
+        font-size: 28px;
+        line-height: 36px;
+      }
+    
+      #intro p {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+    
+      #nav-menu-container {
+        display: none;
+      }
+    
+      #mobile-nav-toggle {
+        display: inline;
+      }
+    
+      #about .about-img {
+        height: auto;
+      }
+    
+      #about .about-img img {
+        margin-left: 0;
+        padding-bottom: 30px;
+      }
+    
+      #advanced-features .advanced-feature-img-right,
+      #advanced-features .advanced-feature-img-left {
+        max-width: 50%;
+      }
+    
+      #faq #faq-list a {
+        font-size: 18px;
+      }
+    
+      #faq #faq-list i {
+        top: 13px;
+      }
+    }
+    
+    @media (max-width: 767px) {
+      #intro .product-screens .product-screen-1 {
+        position: static;
+        padding-top: 30px;
+      }
+    
+      #intro .product-screens .product-screen-2,
+      #intro .product-screens .product-screen-3 {
+        display: none;
+      }
+    
+      #advanced-features .advanced-feature-img-right,
+      #advanced-features .advanced-feature-img-left {
+        max-width: 100%;
+        float: none;
+        padding: 0 0 30px 0;
+      }
+    
+      #more-features .box {
+        margin-bottom: 20px;
+      }
+    
+      #more-features .icon {
+        float: none;
+        text-align: center;
+        padding-bottom: 15px;
+      }
+    
+      #more-features h4,
+      #more-features p {
+        margin-left: 0;
+        text-align: center;
+      }
+    }
